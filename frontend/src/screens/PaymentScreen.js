@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import FormContainer from '../components/FormContainer';
-import CheckoutSteps from '../screens/CheckoutSteps';
+import CheckoutSteps from '../components/CheckoutSteps';
 import { Form, Col, Button } from 'react-bootstrap';
 import { savePaymentMethod } from '../actions/cartActions';
 

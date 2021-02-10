@@ -151,8 +151,6 @@ export const updateUserProfile = (user) => async (dispatch, getState) => {
 			},
 		};
 
-		console.log(config);
-
 		const { data } = await axios.put('/api/users/profile', user, config);
 
 		dispatch({
